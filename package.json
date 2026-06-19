@@ -1,0 +1,16 @@
+{
+  "name": "@yourorg/claude-cid-skill",
+  "version": "1.0.0",
+  "description": "Generalized Competitor Intelligence Database skill for Claude Code",
+  "main": "index.js",
+  "scripts": {
+    "install-skill": "mkdir -p ~/.claude/skills/cid && cp skills/cid/SKILL.md ~/.claude/skills/cid/SKILL.md"
+  },
+  "keywords": ["claude", "skill", "competitor-intelligence", "market-research"],
+  "author": "Your Team",
+  "license": "MIT",
+  "files": [
+    "skills/cid/SKILL.md",
+    "README.md"
+  ]
+}
