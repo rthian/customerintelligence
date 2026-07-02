@@ -11,17 +11,14 @@ Generalized Competitor Intelligence Database for any industry (SaaS, retail, tel
 
 ## Installation
 
-### Option 1: Direct Install
+### Direct Install
 ```bash
+git clone https://github.com/rthian/customerintelligence.git
+cd customerintelligence
 mkdir -p ~/.claude/skills/cid
 cp skills/cid/SKILL.md ~/.claude/skills/cid/SKILL.md
 ```
 
-### Option 2: NPM (if publishing)
-```bash
-npm install -g @yourorg/claude-cid-skill
-npm run install-skill
-```
 
 ## Usage
 
